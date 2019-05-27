@@ -1,0 +1,29 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#message {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right:0;
+    margin: 16px;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #999;
+    color: #fff;
+    background-color: rgba(0,0,0,.24);
+}
+.page-content {
+    margin: 0 auto;
+    max-width: 800px;
+    box-sizing: border-box;
+    background: #EAF2F5;
+    padding: 24px;
+}
+#varrando-inpage2 > div {
+    margin: 0 auto !important;
+}
